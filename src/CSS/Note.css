@@ -1,0 +1,90 @@
+*{
+  font-family: 'Montserrat', sans-serif;
+}
+
+.noteContainer {
+    max-width: 400px;
+    margin: auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    margin-bottom: 20px;
+    background: #efe6db;
+  }
+  
+  .noteHeader {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+
+  
+  .noteHeader h3 {
+    margin: 0;
+  }
+  
+  .noteContent {
+    margin-bottom: 10px;
+  }
+  
+  .noteSkills {
+    font-style: italic;
+    color: #888;
+  }
+  
+  .buttonContainer {
+    display: flex;
+    gap: 10px;
+  }
+  
+  .deleteButton{
+    background: #D21312;
+
+  }
+
+  .updateButton{
+    background: #1C82AD;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 0 black;
+  }
+
+  .archiveButton {
+    background-color: #4caf50;
+    color: white;
+    padding: 8px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    transition: all 0.3s ease-in-out;
+    box-shadow: 0 0 0 0 black;
+  }
+  
+  .deleteButton:hover{
+    background: #D21312;
+  }
+  .updateButton:hover{
+    background: #1C82AD;
+  }
+
+  .archiveButton:hover {
+    background-color: #45a049;
+  }
+
+.skillsContainer {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.skillBubble {
+  background-color: #4CAF50;
+  color: white;
+  text-align: center;
+  padding: 5px 10px;
+  margin: 5px;
+  border-radius: 12px;
+  /* Set animation to alternate */
+}
+
+

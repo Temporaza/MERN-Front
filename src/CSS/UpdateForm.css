@@ -1,0 +1,33 @@
+.updateFormContainer {
+    max-width: 400px;
+    margin: 12vh auto;;
+    background: #efe6db;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+
+.updateForm {
+    display: flex;
+    flex-direction: column;
+}
+
+.formGroup {
+    margin-bottom: 15px;
+}
+
+.skillsContainer {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.skillBubble {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 5px 10px;
+    margin: 5px;
+    border-radius: 12px;
+}

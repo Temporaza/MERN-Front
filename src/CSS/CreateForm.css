@@ -1,0 +1,61 @@
+.createFormContainer {
+    background: #efe6db;
+    max-width: 400px;
+    padding: 20px;
+    margin: 12vh auto;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  .createForm {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .formGroup {
+    margin-bottom: 15px;
+  }
+  
+  label {
+    font-weight: bold;
+    margin-bottom: 5px;
+  }
+  
+  input,
+  textarea {
+    width: 100%;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    margin-top: 5px;
+  }
+  
+  button {
+    background-color: #19376D;
+    color: white;
+    padding: 10px;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #0B2447;
+  }
+
+    .skillsContainer {
+      display: flex;
+      flex-wrap: wrap;
+      gap: 8px;
+    }
+  
+    .skillBubble {
+      background-color: #3498db;
+      color: #fff;
+      padding: 8px 12px;
+      border-radius: 20px;
+      margin-right: 8px;
+      cursor: pointer;
+    }

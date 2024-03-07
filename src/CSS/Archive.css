@@ -1,0 +1,60 @@
+/* Archive.css */
+body {
+  background: #efe6db;
+}
+
+.note-cards {
+    background: #9dbed7;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */ /* Set a height to center vertically on the page */
+    padding: 10px;
+    margin: 10px;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+  
+  .note-card {
+    
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin: 10px; /* Adjust this value to reduce the gap */
+    padding: 10px;
+    width: 30%;
+    background: #efe6db;
+  }
+  
+  .note-card h3 {
+    margin-bottom: 5px;
+  }
+  
+  .list h2{
+    margin-left: 10vh;
+  }
+  /* Add more styles as needed */
+  .list{
+    margin: 20px;
+    padding: 20px;
+    margin-top: 10vh;
+  }
+
+  .noteSkills {
+    display: flex;
+    justify-content: center;
+  }
+
+  .skillBubble {
+    background-color: #3498db;
+    color: #fff;
+    padding: 8px 12px;
+    border-radius: 20px;
+    margin-right: 8px;
+    margin-bottom: 8px;
+  }
+
+  .ArcBut{
+    display: flex;
+    justify-content: flex-end;
+    gap: 10px;
+  }
